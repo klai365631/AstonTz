@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class HallowWorld {
 
-    @GetMapping("/www")
+    @GetMapping
     String hallowWorld() {
         return "Hallow World \n Version2" ;
     }
