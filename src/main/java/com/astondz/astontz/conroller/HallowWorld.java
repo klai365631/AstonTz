@@ -8,6 +8,6 @@ public class HallowWorld {
 
     @GetMapping("/www")
     String hallowWorld() {
-        return "Hallow World \n Version1" ;
+        return "Hallow World \n Version2" ;
     }
 }
