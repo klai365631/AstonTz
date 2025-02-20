@@ -4,10 +4,10 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-public class HallowWorld {
+public class HellowWorld {
 
     @GetMapping
     String hallowWorld() {
-        return "Hallow World \n Version 2 " ;
+        return "Hellow world<br>Version1 " ;
     }
 }
