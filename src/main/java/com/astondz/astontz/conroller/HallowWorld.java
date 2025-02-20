@@ -8,6 +8,6 @@ public class HallowWorld {
 
     @GetMapping
     String hallowWorld() {
-        return "Hallow World \n Version 1 " ;
+        return "Hallow World \n Version 2 " ;
     }
 }
